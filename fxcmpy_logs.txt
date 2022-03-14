@@ -207,3 +207,107 @@
 |ERROR|2022-03-14 08:24:35,906|Connection status: established
 |ERROR|2022-03-14 08:24:35,907|Socket session id: i3oqpjBJxIA4d77XAFFZ
 |ERROR|2022-03-14 08:24:35,907|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:32:21,454|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:32:21,454|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:32:21,454|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Jk7WxqLDMalQfP-gAFK-afe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-14 08:32:21,455|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-14 08:32:21,455|Bearer token: Bearer Jk7WxqLDMalQfP-gAFK-afe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:32:21,455|Connection status: established
+|ERROR|2022-03-14 08:32:21,455|Socket session id: Jk7WxqLDMalQfP-gAFK-
+|ERROR|2022-03-14 08:32:21,455|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:32:21,780|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:32:21,781|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:32:21,781|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Jk7WxqLDMalQfP-gAFK-afe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-14 08:32:21,781|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-14 08:32:21,782|Bearer token: Bearer Jk7WxqLDMalQfP-gAFK-afe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:32:21,782|Connection status: established
+|ERROR|2022-03-14 08:32:21,782|Socket session id: Jk7WxqLDMalQfP-gAFK-
+|ERROR|2022-03-14 08:32:21,782|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:34:52,398|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-03-14 08:34:52,398|URL: https://api-demo.fxcm.com:443/candles/8019/m15?num=10&from=1622505600&to=1643673599
+|ERROR|2022-03-14 08:34:52,398|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Jk7WxqLDMalQfP-gAFK-afe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-03-14 08:34:52,398|Params: {'num': 10, 'from': 1622505600, 'to': 1643673599}
+|ERROR|2022-03-14 08:34:52,398|Bearer token: Bearer Jk7WxqLDMalQfP-gAFK-afe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:34:52,398|Connection status: established
+|ERROR|2022-03-14 08:34:52,398|Socket session id: Jk7WxqLDMalQfP-gAFK-
+|ERROR|2022-03-14 08:34:52,398|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8019","period_id":"m15","candles":[]}.
+|ERROR|2022-03-14 08:35:34,971|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:35:34,971|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:35:34,972|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-14 08:35:34,972|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-14 08:35:34,972|Bearer token: Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:35:34,972|Connection status: established
+|ERROR|2022-03-14 08:35:34,973|Socket session id: qXQNGw2JFTXOA_4wAFNS
+|ERROR|2022-03-14 08:35:34,973|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:35:35,923|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:35:35,924|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:35:35,924|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-14 08:35:35,924|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-14 08:35:35,924|Bearer token: Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:35:35,924|Connection status: established
+|ERROR|2022-03-14 08:35:35,924|Socket session id: qXQNGw2JFTXOA_4wAFNS
+|ERROR|2022-03-14 08:35:35,924|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:35:40,146|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-03-14 08:35:40,146|URL: https://api-demo.fxcm.com:443/candles/8019/m15?num=10&from=1622505600&to=1643673599
+|ERROR|2022-03-14 08:35:40,146|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-03-14 08:35:40,146|Params: {'num': 10, 'from': 1622505600, 'to': 1643673599}
+|ERROR|2022-03-14 08:35:40,146|Bearer token: Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:35:40,146|Connection status: established
+|ERROR|2022-03-14 08:35:40,146|Socket session id: qXQNGw2JFTXOA_4wAFNS
+|ERROR|2022-03-14 08:35:40,146|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8019","period_id":"m15","candles":[]}.
+|ERROR|2022-03-14 08:36:25,847|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-03-14 08:36:25,848|URL: https://api-demo.fxcm.com:443/candles/8019/m15?num=10&from=1622505600&to=1643673599
+|ERROR|2022-03-14 08:36:25,849|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-03-14 08:36:25,849|Params: {'num': 10, 'from': 1622505600, 'to': 1643673599}
+|ERROR|2022-03-14 08:36:25,849|Bearer token: Bearer qXQNGw2JFTXOA_4wAFNSafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:36:25,849|Connection status: established
+|ERROR|2022-03-14 08:36:25,849|Socket session id: qXQNGw2JFTXOA_4wAFNS
+|ERROR|2022-03-14 08:36:25,850|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8019","period_id":"m15","candles":[]}.
+|ERROR|2022-03-14 08:38:10,922|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:38:10,922|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:38:10,923|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 2vKZNEgRHIQEf25PAFOkafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-14 08:38:10,923|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-14 08:38:10,923|Bearer token: Bearer 2vKZNEgRHIQEf25PAFOkafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:38:10,923|Connection status: established
+|ERROR|2022-03-14 08:38:10,923|Socket session id: 2vKZNEgRHIQEf25PAFOk
+|ERROR|2022-03-14 08:38:10,923|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:38:11,288|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:38:11,288|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:38:11,289|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 2vKZNEgRHIQEf25PAFOkafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-14 08:38:11,289|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-14 08:38:11,289|Bearer token: Bearer 2vKZNEgRHIQEf25PAFOkafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:38:11,289|Connection status: established
+|ERROR|2022-03-14 08:38:11,290|Socket session id: 2vKZNEgRHIQEf25PAFOk
+|ERROR|2022-03-14 08:38:11,290|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:38:17,155|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-03-14 08:38:17,155|URL: https://api-demo.fxcm.com:443/candles/8019/m15?num=10&from=1622505600&to=1643673599
+|ERROR|2022-03-14 08:38:17,155|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 2vKZNEgRHIQEf25PAFOkafe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-03-14 08:38:17,155|Params: {'num': 10, 'from': 1622505600, 'to': 1643673599}
+|ERROR|2022-03-14 08:38:17,155|Bearer token: Bearer 2vKZNEgRHIQEf25PAFOkafe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:38:17,155|Connection status: established
+|ERROR|2022-03-14 08:38:17,155|Socket session id: 2vKZNEgRHIQEf25PAFOk
+|ERROR|2022-03-14 08:38:17,155|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8019","period_id":"m15","candles":[]}.
+|ERROR|2022-03-14 08:38:53,844|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:38:53,844|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:38:53,844|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer oEzJUBLsroZWhyK9AFO8afe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-14 08:38:53,844|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-14 08:38:53,844|Bearer token: Bearer oEzJUBLsroZWhyK9AFO8afe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:38:53,845|Connection status: established
+|ERROR|2022-03-14 08:38:53,845|Socket session id: oEzJUBLsroZWhyK9AFO8
+|ERROR|2022-03-14 08:38:53,845|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:38:54,731|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-14 08:38:54,732|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-14 08:38:54,732|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer oEzJUBLsroZWhyK9AFO8afe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-14 08:38:54,732|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-14 08:38:54,733|Bearer token: Bearer oEzJUBLsroZWhyK9AFO8afe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:38:54,733|Connection status: established
+|ERROR|2022-03-14 08:38:54,733|Socket session id: oEzJUBLsroZWhyK9AFO8
+|ERROR|2022-03-14 08:38:54,734|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-14 08:38:57,949|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-03-14 08:38:57,949|URL: https://api-demo.fxcm.com:443/candles/8019/m15?num=10&from=1622505600&to=1643673599
+|ERROR|2022-03-14 08:38:57,949|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer oEzJUBLsroZWhyK9AFO8afe4569b5b1fdc226ca68012aa40592244d2dfbb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-03-14 08:38:57,949|Params: {'num': 10, 'from': 1622505600, 'to': 1643673599}
+|ERROR|2022-03-14 08:38:57,949|Bearer token: Bearer oEzJUBLsroZWhyK9AFO8afe4569b5b1fdc226ca68012aa40592244d2dfbb
+|ERROR|2022-03-14 08:38:57,949|Connection status: established
+|ERROR|2022-03-14 08:38:57,949|Socket session id: oEzJUBLsroZWhyK9AFO8
+|ERROR|2022-03-14 08:38:57,949|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"8019","period_id":"m15","candles":[]}.
