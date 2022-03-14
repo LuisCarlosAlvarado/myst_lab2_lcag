@@ -19,7 +19,7 @@ import ta
 #mid OHLC de 30 min de EUR/USD
 #Agosto 2021 a Ene 2022
 
-data_ohlc = dt.fxcm_ohlc("DOGE/USD", "m15", "2021-06-01 00:00:00", "2022-01-31 23:59:59")
+data_ohlc = dt.fxcm_ohlc("BTC/USD", "m30", "2021-06-01 00:00:00", "2022-01-31 23:59:59")
 
 # Visualizar
 data_ohlc.head(5)
