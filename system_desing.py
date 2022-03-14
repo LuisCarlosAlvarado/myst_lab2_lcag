@@ -20,7 +20,6 @@ import ta
 #Agosto 2021 a Ene 2022
 
 data_ohlc = dt.fxcm_ohlc("DOGE/USD", "m15", "2021-06-01 00:00:00", "2022-01-31 23:59:59")
-data_ohlc = data_ohlc[['open', 'high', 'low', 'close']]
 
 # Visualizar
 data_ohlc.head(5)
