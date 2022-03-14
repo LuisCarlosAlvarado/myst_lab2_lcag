@@ -9,18 +9,17 @@
 # -- Template repository: https://github.com/IFFranciscoME/trading-project                               -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 
-# -- Packages for the script
-import fxcmpy
+import os  
+import datetime
 import pandas as pd
+import numpy as np 
+import time
+import fxcmpy
+import sys
 
-# -- --------------------------------------------------------------------------------------------------- -- #
-# -- --------------------------------------------------------------------------------------------------- -- #
-
-api_token = "ba432..." # This token is obtained in the fxcm trading station platform
-con = fxcmpy.fxcmpy(access_token=api_token, server='demo', log_level='error', log_file='fxcm_logs.txt')
-
-# -- --------------------------------------------------------------------------------------------------- -- #
-# -- --------------------------------------------------------------------------------------------------- -- #
+api_token = "afe4569b5b1fdc226ca68012aa40592244d2dfbb"
+con = fxcmpy.fxcmpy(access_token = api_token, log_level = 'error', log_file= 'fxcmpy_logs.txt', server='demo')
+instruments = con.get_instruments()
 
 def fxcm_ohlc(p_instrument, p_period, p_ini, p_end):
     """
