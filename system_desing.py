@@ -14,14 +14,16 @@ import pandas as pd
 import numpy as np
 import data as dt
 import ta 
+dt.con.is_connected()
 
 #Criterio 1
 #mid OHLC de 30 min de EUR/USD
 #Agosto 2021 a Ene 2022
 
-data_ohlc = dt.fxcm_ohlc("BTC/USD", "m1", "2018-01-31 00:00:00", "2021-12-31 23:59:00")
+data_ohlc = dt.fxcm_ohlc('BTC/USD', 'H4' , '2018-01-31 00:00:00', '2021-12-31 23:59:59')
 
 # Visualizar
+#len(data_ohlc)
 #data_ohlc.head(5)
 #data_ohlc.tail(5)
 
@@ -30,16 +32,16 @@ data_ohlc = dt.fxcm_ohlc("BTC/USD", "m1", "2018-01-31 00:00:00", "2021-12-31 23:
 #data_ohlc.info()
 
 #separar conjuntos de entrenamiento, validacion y prueba
-train_ohlc = data_ohlc.loc[["2018-01-31 00:00:00" , "2020-01-31 23:59:00"]]
+train_ohlc = data_ohlc.loc['2018-06-24 21:00:00' :'2020-01-31 23:59:59']
 #train_ohlc.head(5)
 #train_ohlc.tail(5)
 
-val_ohlc = data_ohlc.loc[["2021-02-01 00:00:00" , "2021-03-31 23:59:00"]]
+val_ohlc = data_ohlc.loc['2021-02-01 00:00:00' : '2021-03-31 23:59:59']
 #val_ohlc.head(5)
 #val_ohlc.tail(5)
 #val_ohlc.describe()
 
-test_ohlc = data_ohlc.loc[["2018-04-01 00:00:00" , "2021-12-31 23:59:00"]]
+test_ohlc = data_ohlc.loc['2021-04-01 00:00:00' : '2021-12-31 23:59:59']
 #test_ohlc.head(5)
 #test_ohlc.tail(5)
 #test_ohlc.describe()
