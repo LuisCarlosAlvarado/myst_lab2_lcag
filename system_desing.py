@@ -19,27 +19,27 @@ import ta
 #mid OHLC de 30 min de EUR/USD
 #Agosto 2021 a Ene 2022
 
-data_ohlc = dt.fxcm_ohlc("BTC/USD", "m30", "2021-06-01 00:00:00", "2022-01-31 23:59:59")
+data_ohlc = dt.fxcm_ohlc("BTC/USD", "m1", "2018-01-31 00:00:00", "2021-12-31 23:59:00")
 
 # Visualizar
-data_ohlc.head(5)
-data_ohlc.tail(5)
+#data_ohlc.head(5)
+#data_ohlc.tail(5)
 
 #descripcion
 #data_ohlc.describe()
 #data_ohlc.info()
 
 #separar conjuntos de entrenamiento, validacion y prueba
-train_ohlc = data_ohlc.iloc[0:5999, :]
+train_ohlc = data_ohlc.loc[["2018-01-31 00:00:00" , "2020-01-31 23:59:00"]]
 #train_ohlc.head(5)
 #train_ohlc.tail(5)
 
-val_ohlc = data_ohlc.iloc[6000:6299, :]
+val_ohlc = data_ohlc.loc[["2021-02-01 00:00:00" , "2021-03-31 23:59:00"]]
 #val_ohlc.head(5)
 #val_ohlc.tail(5)
 #val_ohlc.describe()
 
-test_ohlc = data_ohlc.iloc[6300:-1, :]
+test_ohlc = data_ohlc.loc[["2018-04-01 00:00:00" , "2021-12-31 23:59:00"]]
 #test_ohlc.head(5)
 #test_ohlc.tail(5)
 #test_ohlc.describe()
@@ -58,11 +58,11 @@ test_ohlc = data_ohlc.iloc[6300:-1, :]
 
 #short_ema = train_ohlc['midOpen'].ewm(span=13).mean()
 #long_ema = train_ohlc['midOpen'].ewm(span=36).mean()
-close = train_ohlc['close']
-short_ema = ta.trend.ema_indicator(close, window=9, fillna=False)
-long_ema = ta.trend.ema_indicator(close, window=15, fillna=False)
+def ema(close, short_length, long_length):
+    short_ema = ta.trend.ema_indicator(close, window=short_length, fillna=False)
+    long_ema = ta.trend.ema_indicator(close, window=long_length, fillna=False)
 
-ema = pd.concat([short_ema,long_ema], axis=1)
+    ema = pd.concat([short_ema,long_ema], axis=1)
 
 
 #Criterio 3
