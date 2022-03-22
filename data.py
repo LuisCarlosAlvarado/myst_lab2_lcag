@@ -20,6 +20,7 @@ import sys
 api_token = "c42a95b0e283ef1d08a3b88195a7e17618f18915"
 con = fxcmpy.fxcmpy(access_token = api_token, log_level = 'error', log_file= 'fxcmpy_logs.txt', server='demo')
 instruments = con.get_instruments()
+#print(instruments)
 
 def fxcm_ohlc(p_instrument, p_period, p_ini, p_end):
     """
