@@ -65,6 +65,7 @@ def ema(close, short_length, long_length):
     long_ema = ta.trend.ema_indicator(close, window=long_length, fillna=False)
 
     ema = pd.concat([short_ema,long_ema], axis=1)
+    return ema
 
 
 #Criterio 3
