@@ -255,3 +255,145 @@
 |ERROR|2022-03-22 00:08:18,876|Connection status: established
 |ERROR|2022-03-22 00:08:18,876|Socket session id: AedZ2ox6S5jz7ICOABES
 |ERROR|2022-03-22 00:08:18,876|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 00:11:03,761|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 00:11:03,762|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 00:11:03,762|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-22 00:11:03,762|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-22 00:11:03,763|Bearer token: Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 00:11:03,763|Connection status: established
+|ERROR|2022-03-22 00:11:03,763|Socket session id: yeyRwkUZ8LDvnUN7ABEY
+|ERROR|2022-03-22 00:11:03,763|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 00:11:03,986|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 00:11:03,986|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 00:11:03,987|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-22 00:11:03,987|Params: {'symbol': 'SHEL.uk', 'visible': 'true'}
+|ERROR|2022-03-22 00:11:03,987|Bearer token: Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 00:11:03,988|Connection status: established
+|ERROR|2022-03-22 00:11:03,988|Socket session id: yeyRwkUZ8LDvnUN7ABEY
+|ERROR|2022-03-22 00:11:03,989|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 00:11:04,231|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 00:11:04,232|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 00:11:04,232|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-22 00:11:04,232|Params: {'symbol': 'MBG.de', 'visible': 'true'}
+|ERROR|2022-03-22 00:11:04,232|Bearer token: Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 00:11:04,232|Connection status: established
+|ERROR|2022-03-22 00:11:04,232|Socket session id: yeyRwkUZ8LDvnUN7ABEY
+|ERROR|2022-03-22 00:11:04,233|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 00:11:04,481|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 00:11:04,481|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 00:11:04,481|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-22 00:11:04,482|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-22 00:11:04,482|Bearer token: Bearer yeyRwkUZ8LDvnUN7ABEYc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 00:11:04,482|Connection status: established
+|ERROR|2022-03-22 00:11:04,482|Socket session id: yeyRwkUZ8LDvnUN7ABEY
+|ERROR|2022-03-22 00:11:04,482|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 01:00:15,217|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 01:00:15,217|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 01:00:15,218|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-22 01:00:15,218|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-22 01:00:15,218|Bearer token: Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 01:00:15,218|Connection status: established
+|ERROR|2022-03-22 01:00:15,218|Socket session id: L_6Gnx-lvW6mCynkABFs
+|ERROR|2022-03-22 01:00:15,218|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 01:00:15,543|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 01:00:15,544|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 01:00:15,544|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-22 01:00:15,544|Params: {'symbol': 'SHEL.uk', 'visible': 'true'}
+|ERROR|2022-03-22 01:00:15,544|Bearer token: Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 01:00:15,544|Connection status: established
+|ERROR|2022-03-22 01:00:15,544|Socket session id: L_6Gnx-lvW6mCynkABFs
+|ERROR|2022-03-22 01:00:15,544|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 01:00:15,764|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 01:00:15,764|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 01:00:15,765|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-22 01:00:15,765|Params: {'symbol': 'MBG.de', 'visible': 'true'}
+|ERROR|2022-03-22 01:00:15,766|Bearer token: Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 01:00:15,766|Connection status: established
+|ERROR|2022-03-22 01:00:15,766|Socket session id: L_6Gnx-lvW6mCynkABFs
+|ERROR|2022-03-22 01:00:15,766|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 01:00:16,018|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-22 01:00:16,018|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-22 01:00:16,018|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-22 01:00:16,018|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-22 01:00:16,022|Bearer token: Bearer L_6Gnx-lvW6mCynkABFsc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-22 01:00:16,022|Connection status: established
+|ERROR|2022-03-22 01:00:16,022|Socket session id: L_6Gnx-lvW6mCynkABFs
+|ERROR|2022-03-22 01:00:16,022|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-22 07:14:18,058|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:20,544|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:24,322|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:29,402|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:34,658|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:39,961|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:45,082|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:50,000|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:54,555|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:14:59,605|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:04,448|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:09,512|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:14,283|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:19,504|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:24,814|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:29,822|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:34,483|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:39,109|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:44,075|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:49,414|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:15:54,589|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:00,015|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:04,862|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:09,742|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:14,351|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:19,056|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:24,253|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:29,523|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:34,867|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:39,978|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:45,438|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:50,183|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:16:55,335|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:00,229|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:05,079|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:09,647|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:15,056|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:20,444|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:25,551|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:32,019|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:36,980|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:42,310|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:47,262|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:52,451|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:17:57,668|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:02,537|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:08,024|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:13,038|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:17,810|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:22,410|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:27,335|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:31,901|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:37,434|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:42,633|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:47,265|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:52,195|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:18:57,082|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:19:02,208|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:19:07,380|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:19:12,846|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:19:17,968|Connection error: Connection refused by the server
+|ERROR|2022-03-22 07:19:22,708|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:28:19,960|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:28:35,254|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:28:39,004|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:28:43,546|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:28:48,684|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:29:06,180|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:29:11,334|Connection error: Connection refused by the server
+|ERROR|2022-03-22 10:50:02,352|Connection error: Connection refused by the server
+|ERROR|2022-03-22 22:09:46,959|Connection error: Connection refused by the server
+|ERROR|2022-03-22 23:28:21,251|Connection error: Connection refused by the server
+|ERROR|2022-03-22 23:28:23,323|Connection error: Connection refused by the server
+|ERROR|2022-03-22 23:28:27,635|Connection error: Connection refused by the server
+|ERROR|2022-03-23 17:04:21,174|Connection error: Connection refused by the server
+|ERROR|2022-03-23 17:04:24,753|Connection error: Connection refused by the server
+|ERROR|2022-03-23 22:46:08,746|Connection error: Connection refused by the server
+|ERROR|2022-03-24 06:58:15,709|Connection error: Connection refused by the server
