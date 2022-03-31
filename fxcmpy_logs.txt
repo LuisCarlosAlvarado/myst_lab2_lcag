@@ -517,3 +517,131 @@
 |ERROR|2022-03-30 11:30:39,127|Connection status: established
 |ERROR|2022-03-30 11:30:39,128|Socket session id: KIMLhp1DLUV0ydEQABon
 |ERROR|2022-03-30 11:30:39,128|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:33:03,524|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:33:03,524|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:33:03,526|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-30 11:33:03,527|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-30 11:33:03,528|Bearer token: Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:33:03,529|Connection status: established
+|ERROR|2022-03-30 11:33:03,531|Socket session id: URMAtPMBDv0w7-0JABou
+|ERROR|2022-03-30 11:33:03,531|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:33:04,003|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:33:04,003|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:33:04,004|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-30 11:33:04,004|Params: {'symbol': 'SHEL.uk', 'visible': 'true'}
+|ERROR|2022-03-30 11:33:04,004|Bearer token: Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:33:04,004|Connection status: established
+|ERROR|2022-03-30 11:33:04,004|Socket session id: URMAtPMBDv0w7-0JABou
+|ERROR|2022-03-30 11:33:04,005|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:33:04,489|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:33:04,489|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:33:04,489|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-30 11:33:04,490|Params: {'symbol': 'MBG.de', 'visible': 'true'}
+|ERROR|2022-03-30 11:33:04,490|Bearer token: Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:33:04,490|Connection status: established
+|ERROR|2022-03-30 11:33:04,490|Socket session id: URMAtPMBDv0w7-0JABou
+|ERROR|2022-03-30 11:33:04,491|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:33:04,971|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:33:04,971|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:33:04,972|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-30 11:33:04,972|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-30 11:33:04,972|Bearer token: Bearer URMAtPMBDv0w7-0JABouc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:33:04,972|Connection status: established
+|ERROR|2022-03-30 11:33:04,974|Socket session id: URMAtPMBDv0w7-0JABou
+|ERROR|2022-03-30 11:33:04,974|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:36:42,957|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:36:42,975|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:36:42,975|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-30 11:36:42,975|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-30 11:36:42,976|Bearer token: Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:36:42,976|Connection status: established
+|ERROR|2022-03-30 11:36:42,976|Socket session id: 80-pclveLn1XPHHfABo3
+|ERROR|2022-03-30 11:36:42,976|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:36:43,418|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:36:43,418|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:36:43,418|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-30 11:36:43,418|Params: {'symbol': 'SHEL.uk', 'visible': 'true'}
+|ERROR|2022-03-30 11:36:43,418|Bearer token: Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:36:43,418|Connection status: established
+|ERROR|2022-03-30 11:36:43,418|Socket session id: 80-pclveLn1XPHHfABo3
+|ERROR|2022-03-30 11:36:43,419|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:36:43,888|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:36:43,889|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:36:43,889|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-30 11:36:43,889|Params: {'symbol': 'MBG.de', 'visible': 'true'}
+|ERROR|2022-03-30 11:36:43,889|Bearer token: Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:36:43,889|Connection status: established
+|ERROR|2022-03-30 11:36:43,889|Socket session id: 80-pclveLn1XPHHfABo3
+|ERROR|2022-03-30 11:36:43,889|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-30 11:36:44,394|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-30 11:36:44,394|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-30 11:36:44,395|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-30 11:36:44,395|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-30 11:36:44,395|Bearer token: Bearer 80-pclveLn1XPHHfABo3c42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-30 11:36:44,395|Connection status: established
+|ERROR|2022-03-30 11:36:44,395|Socket session id: 80-pclveLn1XPHHfABo3
+|ERROR|2022-03-30 11:36:44,396|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:08:22,610|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:08:22,660|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:08:22,661|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-31 01:08:22,661|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-31 01:08:22,662|Bearer token: Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:08:22,662|Connection status: established
+|ERROR|2022-03-31 01:08:22,663|Socket session id: LGhzLtVXnKUDHS4fAMQq
+|ERROR|2022-03-31 01:08:22,663|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:08:23,117|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:08:23,117|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:08:23,117|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-31 01:08:23,117|Params: {'symbol': 'SHEL.uk', 'visible': 'true'}
+|ERROR|2022-03-31 01:08:23,117|Bearer token: Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:08:23,117|Connection status: established
+|ERROR|2022-03-31 01:08:23,117|Socket session id: LGhzLtVXnKUDHS4fAMQq
+|ERROR|2022-03-31 01:08:23,117|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:08:23,607|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:08:23,608|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:08:23,608|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-31 01:08:23,608|Params: {'symbol': 'MBG.de', 'visible': 'true'}
+|ERROR|2022-03-31 01:08:23,608|Bearer token: Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:08:23,609|Connection status: established
+|ERROR|2022-03-31 01:08:23,609|Socket session id: LGhzLtVXnKUDHS4fAMQq
+|ERROR|2022-03-31 01:08:23,609|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:08:24,104|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:08:24,104|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:08:24,105|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-31 01:08:24,105|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-31 01:08:24,105|Bearer token: Bearer LGhzLtVXnKUDHS4fAMQqc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:08:24,106|Connection status: established
+|ERROR|2022-03-31 01:08:24,106|Socket session id: LGhzLtVXnKUDHS4fAMQq
+|ERROR|2022-03-31 01:08:24,106|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:25:34,648|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:25:34,649|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:25:34,649|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-31 01:25:34,650|Params: {'symbol': 'ACA.fr', 'visible': 'true'}
+|ERROR|2022-03-31 01:25:34,650|Bearer token: Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:25:34,650|Connection status: established
+|ERROR|2022-03-31 01:25:34,650|Socket session id: HXDwo6Jyid77MA-eAMQz
+|ERROR|2022-03-31 01:25:34,651|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:25:35,128|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:25:35,128|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:25:35,128|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-31 01:25:35,129|Params: {'symbol': 'SHEL.uk', 'visible': 'true'}
+|ERROR|2022-03-31 01:25:35,129|Bearer token: Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:25:35,129|Connection status: established
+|ERROR|2022-03-31 01:25:35,129|Socket session id: HXDwo6Jyid77MA-eAMQz
+|ERROR|2022-03-31 01:25:35,129|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:25:35,602|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:25:35,602|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:25:35,602|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '26'}
+|ERROR|2022-03-31 01:25:35,603|Params: {'symbol': 'MBG.de', 'visible': 'true'}
+|ERROR|2022-03-31 01:25:35,603|Bearer token: Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:25:35,603|Connection status: established
+|ERROR|2022-03-31 01:25:35,603|Socket session id: HXDwo6Jyid77MA-eAMQz
+|ERROR|2022-03-31 01:25:35,603|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-03-31 01:25:36,063|Server reports an error: {'executed': False, 'error': ' \nORA-06512: at "U10D1.API", line 1177\nORA-06512: at line 1\n'}.
+|ERROR|2022-03-31 01:25:36,063|URL: https://api-demo.fxcm.com:443/trading/update_subscriptions
+|ERROR|2022-03-31 01:25:36,064|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '27'}
+|ERROR|2022-03-31 01:25:36,065|Params: {'symbol': 'MVRS.us', 'visible': 'true'}
+|ERROR|2022-03-31 01:25:36,065|Bearer token: Bearer HXDwo6Jyid77MA-eAMQzc42a95b0e283ef1d08a3b88195a7e17618f18915
+|ERROR|2022-03-31 01:25:36,065|Connection status: established
+|ERROR|2022-03-31 01:25:36,066|Socket session id: HXDwo6Jyid77MA-eAMQz
+|ERROR|2022-03-31 01:25:36,066|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
