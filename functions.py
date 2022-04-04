@@ -9,9 +9,7 @@
 # -- Template repository: https://github.com/IFFranciscoME/trading-project                               -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 
-import system_desing as sd
 import ta
-import data as dt
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

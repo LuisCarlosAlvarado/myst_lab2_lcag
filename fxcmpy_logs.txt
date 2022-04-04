@@ -1,0 +1,8 @@
+|ERROR|2022-04-04 16:51:41,017|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-04-04 16:51:41,018|URL: https://api-demo.fxcm.com:443/trading/get_instruments
+|ERROR|2022-04-04 16:51:41,018|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer l0cfNSt5a8S5rmHIABWV6af7a2cf327586f87cdee35aa68a81cba2d7d1fb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-04-04 16:51:41,019|Params: {}
+|ERROR|2022-04-04 16:51:41,019|Bearer token: Bearer l0cfNSt5a8S5rmHIABWV6af7a2cf327586f87cdee35aa68a81cba2d7d1fb
+|ERROR|2022-04-04 16:51:41,019|Connection status: unset
+|ERROR|2022-04-04 16:51:41,019|Socket session id: l0cfNSt5a8S5rmHIABWV
+|ERROR|2022-04-04 16:51:41,020|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
