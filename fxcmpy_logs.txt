@@ -1094,3 +1094,7 @@
 |ERROR|2022-04-04 13:54:45,981|Socket returns unknown error.
 |ERROR|2022-04-04 13:54:45,981|Connection aborted, failed to reconnect
 |ERROR|2022-04-04 13:55:14,484|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 14:14:21,511|Socket returns unknown error.
+|ERROR|2022-04-04 14:14:21,512|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 14:39:25,263|Connection error: Connection refused by the server
+|ERROR|2022-04-04 14:45:35,136|Connection error: Your token is not valid, please contact admin@fxcm.com
