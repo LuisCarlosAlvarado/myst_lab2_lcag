@@ -19,9 +19,6 @@ import sys
 api_token = "e4015648ab9d8d8f6336adf285c9a6771b598d7d"
 con = fxcmpy.fxcmpy(access_token = api_token, log_level = 'debug', log_file= 'fxcmpy_logs.txt', server='demo')
         
-
-
-
 #instruments = con.get_instruments()
 #print(instruments)
 
