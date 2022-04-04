@@ -21,6 +21,6 @@ plotly
 
 # -- Connectivity for FXCM Broker
 fxcmpy==1.2.6
-python-engineio==4.4
-python-socketio==3.9
+python-engineio==3.9.0
+python-socketio==4.4.0
 websocket-client==1.1.0

@@ -175,3 +175,5 @@
 |ERROR|2022-04-04 17:45:15,863|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
 |ERROR|2022-04-04 18:01:42,470|Socket returns unknown error.
 |ERROR|2022-04-04 18:03:39,694|Socket returns unknown error.
+|ERROR|2022-04-04 18:10:00,964|Socket returns unknown error.
+|ERROR|2022-04-04 18:11:50,594|Socket returns unknown error.
