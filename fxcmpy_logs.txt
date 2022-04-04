@@ -177,3 +177,13 @@
 |ERROR|2022-04-04 18:03:39,694|Socket returns unknown error.
 |ERROR|2022-04-04 18:10:00,964|Socket returns unknown error.
 |ERROR|2022-04-04 18:11:50,594|Socket returns unknown error.
+|ERROR|2022-04-04 18:14:49,613|Socket returns unknown error.
+|ERROR|2022-04-04 18:28:24,864|Socket returns unknown error.
+|ERROR|2022-04-04 18:28:52,250|Socket returns unknown error.
+|ERROR|2022-04-04 18:32:44,410|Socket returns unknown error.
+|ERROR|2022-04-04 18:37:52,424|Socket returns unknown error.
+|INFO|2022-04-04 18:39:48,015|Connecting FXCM Server
+|DEBUG|2022-04-04 18:39:48,015|Access token: dc2b21fdb8b6ae3f5264c8ec3bae73b2a4d9bcdc.
+|DEBUG|2022-04-04 18:39:48,021|Starting new HTTPS connection (1): api-demo.fxcm.com:443
+|DEBUG|2022-04-04 18:39:48,709|https://api-demo.fxcm.com:443 "GET /socket.io/?access_token=dc2b21fdb8b6ae3f5264c8ec3bae73b2a4d9bcdc&agent=pythonquants&wait_for_connection=False&transport=polling&EIO=3&t=1649115588.0166702 HTTP/1.1" 200 99
+|ERROR|2022-04-04 18:39:49,260|Socket returns unknown error.

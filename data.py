@@ -8,7 +8,6 @@
 # -- --------------------------------------------------------------------------------------------------- -- #
 # -- Template repository: https://github.com/IFFranciscoME/trading-project                               -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
-
 import os  
 import datetime
 import pandas as pd
@@ -17,8 +16,8 @@ import time
 import fxcmpy
 import sys
 
-api_token = "dc2b21fdb8b6ae3f5264c8ec3bae73b2a4d9bcdc"
-con = fxcmpy.fxcmpy(access_token = api_token, log_level = 'error', log_file= 'fxcmpy_logs.txt', server='demo')
+api_token = "e4015648ab9d8d8f6336adf285c9a6771b598d7d"
+con = fxcmpy.fxcmpy(access_token = api_token, log_level = 'debug', log_file= 'fxcmpy_logs.txt', server='demo')
         
 
 
