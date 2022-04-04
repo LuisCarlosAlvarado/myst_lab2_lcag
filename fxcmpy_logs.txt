@@ -1098,3 +1098,40 @@
 |ERROR|2022-04-04 14:14:21,512|Connection aborted, failed to reconnect
 |ERROR|2022-04-04 14:39:25,263|Connection error: Connection refused by the server
 |ERROR|2022-04-04 14:45:35,136|Connection error: Your token is not valid, please contact admin@fxcm.com
+|ERROR|2022-04-04 15:00:24,260|Connection error: Your token is not valid, please contact admin@fxcm.com
+|ERROR|2022-04-04 15:01:33,542|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:21:43,545|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:21:54,546|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:21:54,546|Socket returns unknown error.
+|ERROR|2022-04-04 15:21:54,546|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:21:54,546|Socket returns unknown error.
+|ERROR|2022-04-04 15:21:54,546|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:21:54,546|Socket returns unknown error.
+|ERROR|2022-04-04 15:21:54,547|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:21:54,547|Socket returns unknown error.
+|ERROR|2022-04-04 15:21:54,547|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 15:22:11,241|Socket returns unknown error.
+|ERROR|2022-04-04 15:22:15,281|Connection error: Connection refused by the server
+|ERROR|2022-04-04 15:22:29,051|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-04-04 15:22:29,051|URL: https://api-demo.fxcm.com:443/trading/get_model?models=Order
+|ERROR|2022-04-04 15:22:29,051|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer ZMekdc3MF-8XUfUdAL1_6af7a2cf327586f87cdee35aa68a81cba2d7d1fb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-04-04 15:22:29,051|Params: {'models': ['Order']}
+|ERROR|2022-04-04 15:22:29,051|Bearer token: Bearer ZMekdc3MF-8XUfUdAL1_6af7a2cf327586f87cdee35aa68a81cba2d7d1fb
+|ERROR|2022-04-04 15:22:29,051|Connection status: unset
+|ERROR|2022-04-04 15:22:29,051|Socket session id: ZMekdc3MF-8XUfUdAL1_
+|ERROR|2022-04-04 15:22:29,051|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
+|ERROR|2022-04-04 15:22:36,540|Socket returns unknown error.
+|ERROR|2022-04-04 15:22:38,304|Socket returns unknown error.
+|ERROR|2022-04-04 15:22:40,789|Socket returns unknown error.
+|ERROR|2022-04-04 15:22:42,455|Socket returns unknown error.
+|ERROR|2022-04-04 15:22:43,749|Socket returns unknown error.
+|ERROR|2022-04-04 15:22:44,714|Socket returns unknown error.
+|ERROR|2022-04-04 15:24:18,029|Connection error: Connection refused by the server
+|ERROR|2022-04-04 15:24:56,996|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2022-04-04 15:24:56,996|URL: https://api-demo.fxcm.com:443/trading/get_instruments
+|ERROR|2022-04-04 15:24:57,012|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer cZp4XQ9vJTg9PrFhAL3v6af7a2cf327586f87cdee35aa68a81cba2d7d1fb', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-04-04 15:24:57,012|Params: {}
+|ERROR|2022-04-04 15:24:57,012|Bearer token: Bearer cZp4XQ9vJTg9PrFhAL3v6af7a2cf327586f87cdee35aa68a81cba2d7d1fb
+|ERROR|2022-04-04 15:24:57,012|Connection status: established
+|ERROR|2022-04-04 15:24:57,012|Socket session id: cZp4XQ9vJTg9PrFhAL3v
+|ERROR|2022-04-04 15:24:57,012|Can not parse server answer to json object: {"response":{"executed":false,"error":"Unauthorized"}}.
