@@ -1069,3 +1069,28 @@
 |ERROR|2022-04-04 01:25:16,826|Connection status: established
 |ERROR|2022-04-04 01:25:16,827|Socket session id: oiV7bk8w1JSYoAaqAAOD
 |ERROR|2022-04-04 01:25:16,828|Can not parse server answer to json object: {"response":{"executed":false,"error":" \nORA-06512: at \"U10D1.API\", line 1177\nORA-06512: at line 1\n"}}.
+|ERROR|2022-04-04 07:13:24,458|Connection error: Connection refused by the server
+|ERROR|2022-04-04 07:13:38,497|Connection error: Connection refused by the server
+|ERROR|2022-04-04 07:32:33,149|Connection error: Authentication timed out. Please try again.
+|ERROR|2022-04-04 13:51:07,142|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:51:51,062|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:53:25,560|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:07,172|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:07,172|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:16,031|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:16,031|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:20,083|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:20,083|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:22,045|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:22,045|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:31,047|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:32,313|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:32,313|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:37,731|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:37,732|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:41,731|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:43,451|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:43,452|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:54:45,981|Socket returns unknown error.
+|ERROR|2022-04-04 13:54:45,981|Connection aborted, failed to reconnect
+|ERROR|2022-04-04 13:55:14,484|Connection aborted, failed to reconnect
