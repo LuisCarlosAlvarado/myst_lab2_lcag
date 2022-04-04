@@ -13,6 +13,7 @@ from cmath import nan
 import pandas as pd
 import numpy as np
 import data as dt
+import functions as fn
 import ta 
 dt.con.is_connected()
 
@@ -46,38 +47,28 @@ test_ohlc = data_ohlc.loc['2021-04-01 00:00:00' : '2021-12-31 23:59:59']
 #test_ohlc.tail(5)
 #test_ohlc.describe()
 
-# -- Entrenamiento se utiliza todas las veces que sean
-# -- Validación se utiliza 5 veces (durante el mismo ciclo que entrenamiento, o, después de haberlo terminado)
-# -- Prueba se utiiza 1 vez (Hasta el final)
+def proceso_completo(cierre, open, comision,\
+     short_length, long_length, take_profit, stop_loss, capital):
 
-#Criterio 2
-# Obtener media movil exponencial periodo corto y largo
-# Comparar cada media entre sí por cada vela 
-# Momento en que EMA corto > EMA largo, señal de compra
-# Si EMA[t-1] es menor y EMA[t] es mayor, significa que hubo un cruce y se da la señal
-# Momento en que EMA corto < EMA largo, señal de venta
-# 
+    cierre = cierre
+    open = open
+    comision = comision 
+    short_length = short_length
+    long_length = long_length
+    take_profit = take_profit
+    stop_loss = stop_loss
+    capital = capital
 
-#short_ema = train_ohlc['midOpen'].ewm(span=13).mean()
-#long_ema = train_ohlc['midOpen'].ewm(span=36).mean()
-def ema(close, short_length, long_length):
-    short_ema = ta.trend.ema_indicator(close, window=short_length, fillna=False)
-    long_ema = ta.trend.ema_indicator(close, window=long_length, fillna=False)
+    short_ema = fn.ema(serie = cierre, length = short_length)
+    long_ema = fn.ema(serie = cierre, length = long_length)
 
-    ema = pd.concat([short_ema,long_ema], axis=1)
-    return ema
+    señales = fn.signals(short_ema=short_ema, long_ema=long_ema, serie=cierre)
+    señales_index = fn.signal_index(lista = señales)
+    operaciones = fn.operations(lista = señales_index, precios=open)
+    rend_operacion = fn.open_price_profit(lista = operaciones)
+    rendimiento = fn.profit(lista = rend_operacion, comision = comision,\
+                    take_profit = take_profit, stop_loss = stop_loss)
+    flujo = fn.capital_flow(lista = rendimiento, capital = capital)
 
+    return señales, señales_index, operaciones, rend_operacion, rendimiento, flujo
 
-#Criterio 3
-# tp = 50
-# sl = 25
-
-#Criterio 4
-# 0.01% del balance
-# Balance inicial = 20,000
-
-# -- Backtest
-# 1. Operaciones ejecutadas
-# 2. Ganancias en Pisps y en $ por operación
-# 3. Tiempo de duración
-# 4. Deflated Sharpe Ratio
