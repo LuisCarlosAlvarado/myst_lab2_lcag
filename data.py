@@ -17,8 +17,12 @@ import time
 import fxcmpy
 import sys
 
-api_token = "6af7a2cf327586f87cdee35aa68a81cba2d7d1fb"
+api_token = "dc2b21fdb8b6ae3f5264c8ec3bae73b2a4d9bcdc"
 con = fxcmpy.fxcmpy(access_token = api_token, log_level = 'error', log_file= 'fxcmpy_logs.txt', server='demo')
+        
+
+
+
 #instruments = con.get_instruments()
 #print(instruments)
 
