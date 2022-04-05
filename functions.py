@@ -367,7 +367,7 @@ def f_estadísticas_ba(rendimiento, operaciones, name:str ="df_1_tabla" or  "df_
 
     diccionario = {
         "df_1_tabla": df_1_tabla,
-        "df_2_ranking": df_1_tabla
+        "df_2_ranking": df_2_ranking
     }
 
     return diccionario[name]
@@ -396,8 +396,8 @@ def f_evolucion_capital(df, operaciones, rend_operacion, take_profit, stop_loss,
                 profit_d_acum: profit acumulado respecto al capital
 
     """    
-    inicio = df.index[0][0:10]
-    fin    = df.index[-1][0:10]
+    inicio = datetime.strptime(df.index[0], "%d/%m/%Y")
+    fin    = datetime.strptime(df.index[-1], "%d/%m/%Y")
 
     lista_fechas = [inicio + timedelta(days=d) for d in range((fin - inicio).days + 1)]
 
@@ -415,7 +415,7 @@ def f_evolucion_capital(df, operaciones, rend_operacion, take_profit, stop_loss,
     rendimientos_periodo = np.zeros(len(lista_fechas))
     for i in range(len(lista_fechas)):
         for j in range(len(fechas_cierre_rendimiento)):
-            if fechas_cierre_rendimiento[j][0] == lista_fechas[i]:
+            if fechas_cierre_rendimiento[j][0] == datetime.strftime(lista_fechas[i], "%d/%m/%Y"):
                 rendimientos_periodo[i] += fechas_cierre_rendimiento[j][1]
 
     rend_acum = capital_flow(rendimientos_periodo, capital)
