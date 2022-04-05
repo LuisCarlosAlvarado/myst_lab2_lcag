@@ -12,16 +12,17 @@
 from cmath import nan
 import pandas as pd
 import numpy as np
-import data as dt
+#import data as dt
 import functions as fn
 import ta 
-dt.con.is_connected()
+#dt.con.is_connected()
 
 #Criterio 1
 #mid OHLC de 30 min de EUR/USD
 #Agosto 2021 a Ene 2022
 
-data_ohlc = dt.fxcm_ohlc('BTC/USD', 'H4' , '2018-01-31 00:00:00', '2021-12-31 23:59:59')
+#data_ohlc = dt.fxcm_ohlc('BTC/USD', 'H4' , '2018-01-31 00:00:00', '2021-12-31 23:59:59')
+data_ohlc = pd.read_csv("BTCUSD.csv", index_col="Date")
 
 # Visualizar
 #len(data_ohlc)
@@ -33,16 +34,16 @@ data_ohlc = dt.fxcm_ohlc('BTC/USD', 'H4' , '2018-01-31 00:00:00', '2021-12-31 23
 #data_ohlc.info()
 
 #separar conjuntos de entrenamiento, validacion y prueba
-train_ohlc = data_ohlc.loc['2018-06-24 21:00:00' :'2020-01-31 23:59:59']
+train_ohlc = data_ohlc.loc['31/01/2018' :'31/01/2020']
 #train_ohlc.head(5)
 #train_ohlc.tail(5)
 
-val_ohlc = data_ohlc.loc['2021-02-01 00:00:00' : '2021-03-31 23:59:59']
+val_ohlc = data_ohlc.loc['01/02/2021' : '31/03/2021']
 #val_ohlc.head(5)
 #val_ohlc.tail(5)
 #val_ohlc.describe()
 
-test_ohlc = data_ohlc.loc['2021-04-01 00:00:00' : '2021-12-31 23:59:59']
+test_ohlc = data_ohlc.loc['01/04/2021' : '31/12/2021']
 #test_ohlc.head(5)
 #test_ohlc.tail(5)
 #test_ohlc.describe()
@@ -69,6 +70,7 @@ def proceso_completo(cierre, open, comision,\
     rendimiento = fn.profit(lista = rend_operacion, comision = comision,\
                     take_profit = take_profit, stop_loss = stop_loss)
     flujo = fn.capital_flow(lista = rendimiento, capital = capital)
+    resultados = [señales, señales_index, operaciones, rend_operacion, rendimiento, flujo]
 
-    return señales, señales_index, operaciones, rend_operacion, rendimiento, flujo
+    return resultados
 
