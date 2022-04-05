@@ -21,10 +21,10 @@ cierre = sd.train_ohlc['close']
 open = sd.train_ohlc['open'] 
 comision = .001 #ya en porcentaje
 capital = 20000
-for short_length in range(5,6):
-    for long_length in range(30,31):
-        for take_profit in np.arange(.045,.05,.005):
-            for stop_loss in np.arange(-.02,-.025,-.005):
+for short_length in range(1,5):
+    for long_length in range(1,10):
+        for take_profit in np.arange(.025,.055,.005):
+            for stop_loss in np.arange(-.005,-.03,-.005):
                 if long_length > short_length:  
                     short_ema = fn.ema(serie = cierre, length = short_length)
                     long_ema = fn.ema(serie = cierre, length = long_length)

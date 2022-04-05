@@ -42,7 +42,7 @@ def metrica_computacional(funcion):
         return c
     return funcion_medida
 
-@metrica_computacional
+#@metrica_computacional
 def ema(serie, length):
     """
     Devuelve el promedio móvil exponencial de una serie
@@ -61,7 +61,7 @@ def ema(serie, length):
     ema = ta.trend.ema_indicator(serie, window=length, fillna=False)
     return ema
 
-@metrica_computacional
+#@metrica_computacional
 def signals(short_ema, long_ema, serie):
     """
     Devuelve las señales de compra según el cruce de las velas
@@ -91,7 +91,7 @@ def signals(short_ema, long_ema, serie):
             señales[i] = 0
     return señales
 
-@metrica_computacional
+#@metrica_computacional
 def signal_index(lista):
     """
     Devuelve el índice de las señales de compra
@@ -116,7 +116,7 @@ def signal_index(lista):
                 continue
     return indice_señal
 
-@metrica_computacional
+#@metrica_computacional
 def operations(lista, precios):
     """
     Devuelve fechas y precios que hay entre una señal de compra y una de venta
@@ -137,7 +137,7 @@ def operations(lista, precios):
         operaciones.append(pd.DataFrame(precios[lista[i][0]:lista[i][1]]))
     return operaciones
 
-@metrica_computacional
+#@metrica_computacional
 def open_price_profit(lista):
     """
     Devuelve el rendimiento que cada vela tiene con el precio de apertura de la operación
@@ -161,7 +161,7 @@ def open_price_profit(lista):
         retorno_operacion.append(retorno_vela)
     return retorno_operacion
 
-@metrica_computacional
+#@metrica_computacional
 def profit(lista, comision, take_profit, stop_loss):
     """
     Devuelve el rendimiento obtenido por operación, ya sea alcanzado el take profit, stop loss o bien recibiendo 
@@ -192,7 +192,7 @@ def profit(lista, comision, take_profit, stop_loss):
                 rendimiento.append(lista[i][-1] - comision)
     return rendimiento
 
-@metrica_computacional
+#@metrica_computacional
 def capital_flow(lista, capital):
     """
     Devuelve el flujo del capital durante el periodo de trading
@@ -215,7 +215,7 @@ def capital_flow(lista, capital):
     return flujo_capital
 
 ## MEDIDAS ATRIBUCIÓN AL DESEMPEÑO
-@metrica_computacional
+#@metrica_computacional
 def f_pip_size(name:str):
     """
     Devuelve los pips del símbolo con el que estás trabajando
@@ -238,7 +238,7 @@ def f_pip_size(name:str):
         pip_size = 1/100
     return pip_size
 
-@metrica_computacional
+#@metrica_computacional
 def columnas_tiempos(rend_individual, operaciones, take_profit, stop_loss):
     """
     Devuelve el tiempo que duró cada operación hasta el cierre de cualquier tipo 
@@ -263,16 +263,18 @@ def columnas_tiempos(rend_individual, operaciones, take_profit, stop_loss):
         for j in range(len(rend_individual[i])):
             if j < len(rend_individual[i])-1:
                 if rend_individual[i][j] >= take_profit or rend_individual[i][j] <= stop_loss:
-                    tiempo_operacion.append(operaciones[i].index[j] - operaciones[i].index[0])
+                    tiempo_operacion.append(datetime.strptime(operaciones[i].index[j], "%d/%m/%Y")\
+                         - datetime.strptime(operaciones[i].index[0], "%d/%m/%Y"))
                     break
             else:
-                tiempo_operacion.append(operaciones[i].index[-1] - operaciones[i].index[0])
+                tiempo_operacion.append(datetime.strptime(operaciones[i].index[-1], "%d/%m/%Y")\
+                         - datetime.strptime(operaciones[i].index[0], "%d/%m/%Y"))
     dataframe = pd.DataFrame(tiempo_operacion)
     dataframe.columns = ["Tiempo"]
     dataframe.index.name = "# Operación"
     return dataframe
 
-@metrica_computacional
+#@metrica_computacional
 def f_columnas_pips(pips:int, rendimiento):
     """
     Devuelve varciación en pips del rendimiento obtenido durante el periodo
@@ -304,7 +306,7 @@ def f_columnas_pips(pips:int, rendimiento):
 
     return dataframe
 
-@metrica_computacional
+#@metrica_computacional
 def f_estadísticas_ba(rendimiento, operaciones, name:str ="df_1_tabla" or  "df_2_ranking"):
     """
     Devuelve un diccionario con 2 DataFrames de estadísticas del trading durante el periodo
@@ -342,7 +344,7 @@ def f_estadísticas_ba(rendimiento, operaciones, name:str ="df_1_tabla" or  "df_
 
     dias = []
     for i in range(len(operaciones)):
-        dias.append(calendar.day_name[operaciones[i].index[0].weekday()])
+        dias.append(calendar.day_name[datetime.strptime(operaciones[i].index[0],"%d/%m/%Y").weekday()])
 
     dias_positivos = []
     dias_negativos = []
@@ -370,7 +372,7 @@ def f_estadísticas_ba(rendimiento, operaciones, name:str ="df_1_tabla" or  "df_
 
     return diccionario[name]
 
-@metrica_computacional
+#@metrica_computacional
 def f_evolucion_capital(df, operaciones, rend_operacion, take_profit, stop_loss, capital, rendimiento):
     """
     Devuelve el día y profit que se tuvo en el mismo, así como el acumulado del capital
@@ -394,8 +396,8 @@ def f_evolucion_capital(df, operaciones, rend_operacion, take_profit, stop_loss,
                 profit_d_acum: profit acumulado respecto al capital
 
     """    
-    inicio = datetime.strptime(str(df.index[0])[0:10], "%Y-%m-%d" )
-    fin    = datetime.strptime(str(df.index[-1])[0:10], "%Y-%m-%d" )
+    inicio = df.index[0][0:10]
+    fin    = df.index[-1][0:10]
 
     lista_fechas = [inicio + timedelta(days=d) for d in range((fin - inicio).days + 1)]
 
@@ -404,15 +406,11 @@ def f_evolucion_capital(df, operaciones, rend_operacion, take_profit, stop_loss,
         for j in range(len(rend_operacion[i])):
             if j < len(rend_operacion[i])-1:
                 if rend_operacion[i][j] >= take_profit or rend_operacion[i][j] <= stop_loss:
-                    fechas_cierre_rendimiento.append(\
-                        [datetime.strptime(str(operaciones[i].index[j])[0:10], "%Y-%m-%d" ),\
-                            rendimiento[i]])
+                    fechas_cierre_rendimiento.append([operaciones[i].index[j][0:10],rendimiento[i]])
                         
                     break
             else:
-                fechas_cierre_rendimiento.append(\
-                    [datetime.strptime(str(operaciones[i].index[-1])[0:10], "%Y-%m-%d" ),\
-                        rendimiento[i]])
+                fechas_cierre_rendimiento.append([operaciones[i].index[-1][0:10],rendimiento[i]])
     
     rendimientos_periodo = np.zeros(len(lista_fechas))
     for i in range(len(lista_fechas)):
@@ -425,7 +423,7 @@ def f_evolucion_capital(df, operaciones, rend_operacion, take_profit, stop_loss,
     data.columns = ["timestamp", "Profit_d", "Profit_acum_d"]
     return data
 
-@metrica_computacional
+#@metrica_computacional
 def f_estadisticas_mad(evolucion_capital):
     """
     Devuelve DataFrame con estadísticas generales
@@ -454,7 +452,7 @@ def f_estadisticas_mad(evolucion_capital):
     
     return pd.DataFrame([column_1, column_2]).T
 
-@metrica_computacional
+#@metrica_computacional
 def metrica_optimizacion(short_length_range, long_length_range, take_profit_arange, stop_loss_arange):
     """
     Devuelve el número de iteraciones a realizar en la optimización
