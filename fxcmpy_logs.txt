@@ -207,3 +207,8 @@
 |DEBUG|2022-04-04 19:27:09,429|Starting new HTTPS connection (1): api-demo.fxcm.com:443
 |DEBUG|2022-04-04 19:27:09,957|https://api-demo.fxcm.com:443 "GET /socket.io/?access_token=e4015648ab9d8d8f6336adf285c9a6771b598d7d&agent=pythonquants&wait_for_connection=False&transport=polling&EIO=3&t=1649118429.398065 HTTP/1.1" 200 99
 |ERROR|2022-04-04 19:27:10,237|Socket returns unknown error.
+|INFO|2022-04-04 20:22:10,532|Connecting FXCM Server
+|DEBUG|2022-04-04 20:22:10,542|Access token: e4015648ab9d8d8f6336adf285c9a6771b598d7d.
+|DEBUG|2022-04-04 20:22:10,583|Starting new HTTPS connection (1): api-demo.fxcm.com:443
+|DEBUG|2022-04-04 20:22:11,170|https://api-demo.fxcm.com:443 "GET /socket.io/?access_token=e4015648ab9d8d8f6336adf285c9a6771b598d7d&agent=pythonquants&wait_for_connection=False&transport=polling&EIO=3&t=1649121730.5437915 HTTP/1.1" 200 99
+|ERROR|2022-04-04 20:22:11,472|Socket returns unknown error.
